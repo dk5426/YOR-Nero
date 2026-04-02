@@ -9,13 +9,13 @@ This repository contains the codebase for the YOR robot, supporting both high-fi
 - **Python:** Version 3.10 or higher.
 - **Hardware (Physical only):**
   - CANable or compatible USB-to-CAN adapter.
-  - AgileX Piper arm(s).
+  - AgileX Nero arm(s).
   - SparkFlex/SparkMax motor controllers.
 
 ### 1.2 Cloning the Repository
 This repository uses submodules. Clone recursively:
 ```bash
-git clone -b nero --recursive https://github.com/dk5426/YOR.git
+git clone --recursive https://github.com/dk5426/YOR-Nero.git
 cd YOR
 ```
 If you already cloned without submodules:

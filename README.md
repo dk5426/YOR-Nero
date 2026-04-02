@@ -9,7 +9,7 @@ This repository contains the codebase for the YOR robot, supporting both high-fi
 - **Python:** Version 3.10 or higher.
 - **Hardware (Physical only):**
   - CANable or compatible USB-to-CAN adapter.
-  - AgileX Piper arm(s).
+  - AgileX Nero arm(s).
   - SparkFlex/SparkMax motor controllers.
 
 ### 1.2 Cloning the Repository

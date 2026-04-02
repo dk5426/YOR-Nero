@@ -1,4 +1,4 @@
-name: nerolib
+name: yor-nero
 channels:
   - conda-forge
   - defaults

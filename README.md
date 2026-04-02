@@ -29,8 +29,8 @@ For **Linux systems with physical robot support**, we recommend using conda to m
 
 **1. Create Conda Environment:**
 ```bash
-conda create -n yor python=3.10 -y
-conda activate yor
+conda create -n yor-nero python=3.10 -y
+conda activate yor-nero
 ```
 
 **2. Install System Dependencies:**
@@ -58,7 +58,7 @@ cd nerolib
 bash install.sh
 cd ..
 ```
-*(This will automatically install dependencies into your active `yor` environment.)*
+*(This will automatically install dependencies into your active `yor-nero` environment.)*
 
 **5. Install Main Robot Package:**
 ```bash
@@ -227,5 +227,5 @@ python robot/teleop/oculus_bimanual_teleop.py
 - Check if port 5557 is blocked or already in use
 
 **Import errors after installation**
-- Verify your environment is activated: `conda activate yor` or `source .venv/bin/activate`
+- Verify your environment is activated: `conda activate yor-nero` or `source .venv/bin/activate`
 - Try reinstalling in editable mode: `pip install -e .`

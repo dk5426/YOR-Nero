@@ -3,7 +3,7 @@ set -euo pipefail
 
 # Detect active environment
 CURRENT_ENV=${CONDA_DEFAULT_ENV:-"base"}
-TARGET_ENV="nerolib"
+TARGET_ENV="yor-nero"
 
 # If we are in an active non-base environment, use it
 if [ "$CURRENT_ENV" != "base" ]; then

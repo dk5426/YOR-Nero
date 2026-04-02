@@ -21,7 +21,7 @@ C++ dependencies are installed using conda. However, conda is __ONLY__ used for 
 uv is a superior tool and this makes Nerolib easier to use as a dependency in other projects. Follow these steps to install dependencies:
 
 1. Install the conda environment: `mamba env create -f environment.yml`.
-2. If your conda environment is not installed in the default path: `$HOME/miniforge3/envs/nerolib`, set NEROLIB_CONDA_ENV environment variable.
+2. If your conda environment is not installed in the default path: `$HOME/miniforge3/envs/yor-nero`, set NEROLIB_CONDA_ENV environment variable.
 
 ### Installing Python library
 
